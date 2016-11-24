@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44DE3B031DE7380B0066F5B8 /* FabricLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 44DE3B021DE7380B0066F5B8 /* FabricLib.h */; };
+		44DE3B051DE7380B0066F5B8 /* FabricLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DE3B041DE7380B0066F5B8 /* FabricLib.m */; };
+		44DE3B0C1DE7385F0066F5B8 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44DE3B0B1DE7385F0066F5B8 /* Fabric.framework */; };
+		44DE3B0D1DE738820066F5B8 /* Fabric.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 44DE3B0B1DE7385F0066F5B8 /* Fabric.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		44DE3AFD1DE7380B0066F5B8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				44DE3B0D1DE738820066F5B8 /* Fabric.framework in CopyFiles */,
+				44DE3B031DE7380B0066F5B8 /* FabricLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		44DE3AFF1DE7380B0066F5B8 /* libFabric-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFabric-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44DE3B021DE7380B0066F5B8 /* FabricLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FabricLib.h; sourceTree = "<group>"; };
+		44DE3B041DE7380B0066F5B8 /* FabricLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FabricLib.m; sourceTree = "<group>"; };
+		44DE3B0B1DE7385F0066F5B8 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44DE3AFC1DE7380B0066F5B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DE3B0C1DE7385F0066F5B8 /* Fabric.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44DE3AF61DE7380B0066F5B8 = {
+			isa = PBXGroup;
+			children = (
+				44DE3B011DE7380B0066F5B8 /* Fabric */,
+				44DE3B001DE7380B0066F5B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44DE3B001DE7380B0066F5B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44DE3AFF1DE7380B0066F5B8 /* libFabric-iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44DE3B011DE7380B0066F5B8 /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				44DE3B0B1DE7385F0066F5B8 /* Fabric.framework */,
+				44DE3B021DE7380B0066F5B8 /* FabricLib.h */,
+				44DE3B041DE7380B0066F5B8 /* FabricLib.m */,
+			);
+			path = Fabric;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44DE3AFE1DE7380B0066F5B8 /* Fabric-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44DE3B081DE7380B0066F5B8 /* Build configuration list for PBXNativeTarget "Fabric-iOS" */;
+			buildPhases = (
+				44DE3AFB1DE7380B0066F5B8 /* Sources */,
+				44DE3AFC1DE7380B0066F5B8 /* Frameworks */,
+				44DE3AFD1DE7380B0066F5B8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fabric-iOS";
+			productName = Fabric;
+			productReference = 44DE3AFF1DE7380B0066F5B8 /* libFabric-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44DE3AF71DE7380B0066F5B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CrossroadLabs;
+				TargetAttributes = {
+					44DE3AFE1DE7380B0066F5B8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 44DE3AFA1DE7380B0066F5B8 /* Build configuration list for PBXProject "Fabric" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 44DE3AF61DE7380B0066F5B8;
+			productRefGroup = 44DE3B001DE7380B0066F5B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44DE3AFE1DE7380B0066F5B8 /* Fabric-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44DE3AFB1DE7380B0066F5B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DE3B051DE7380B0066F5B8 /* FabricLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		44DE3B061DE7380B0066F5B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44DE3B071DE7380B0066F5B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44DE3B091DE7380B0066F5B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Fabric",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		44DE3B0A1DE7380B0066F5B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Fabric",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44DE3AFA1DE7380B0066F5B8 /* Build configuration list for PBXProject "Fabric" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44DE3B061DE7380B0066F5B8 /* Debug */,
+				44DE3B071DE7380B0066F5B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44DE3B081DE7380B0066F5B8 /* Build configuration list for PBXNativeTarget "Fabric-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44DE3B091DE7380B0066F5B8 /* Debug */,
+				44DE3B0A1DE7380B0066F5B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44DE3AF71DE7380B0066F5B8 /* Project object */;
+}
